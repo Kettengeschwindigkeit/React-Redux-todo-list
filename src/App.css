@@ -1,3 +1,23 @@
 .App {
   text-align: center;
 }
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0,5rem;
+}
+
+input:checked + span {                                                                                    /* span следующий за input со значением checked */
+  text-decoration: line-through;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+}
